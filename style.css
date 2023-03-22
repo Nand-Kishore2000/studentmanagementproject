@@ -1,0 +1,233 @@
+
+        body{
+            background: #d4d2d2;
+            
+        }
+        *{
+            margin:0;
+            /* font-size: medium; */
+            font-family: maven pro, Sans-serif;
+            /* font-weight: 7; */
+            /* color: black; */
+            /* background: #5AB9EA; */
+        }
+        .heading{
+            background-color:#f2f2f2;
+            border: none;
+            border-radius: 28px;
+            text-align: center;
+            position: relative;
+            display: flex;
+            /* padding-top: 20px; */
+            height: 400px;
+            width: 60%;
+            align-items: center;
+            margin-left: 400px;
+            margin-top: 20px;
+            /* margin: 10px auto; */
+            justify-content: space-evenly;
+            /* line-height: 120%; */
+            text-align: left;
+
+            padding-left: 100px;
+            box-shadow: 2px 2px 2px 2px gray;
+            padding-right   : 10px;
+            
+
+
+        }
+        h1{
+           text-align: center;
+           align-items: left;
+           justify-content: center;
+           display: block;
+           width: 100%;
+           height: 30px;
+           /* line-height: 150%; */
+           margin: auto;
+         
+        }
+        h1{
+            font-weight: 100;
+            line-height: 20px;
+
+        }
+        input,select {
+            /* width: 100%; */
+            /* display: block; */
+            /* text-align: left; */
+            background-color:rgb(224, 218, 218);
+            margin-top: 5px;
+            /* outline: none; */
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-left: 0px;
+            font-weight: 100;
+            box-sizing: border-box;
+            resize: vertical;
+            /* float: right; */
+          
+        }
+        .savebtndiv{
+            display: block;
+            width:fit-content;
+            height: fit-content;
+            /* border: 2px solid black; */
+            position: absolute;
+            margin-top:340px;
+                
+        }
+        
+       .save-btn{
+        background-color: rgb(56, 114, 213);
+        /* background-color: red; */
+        color: white;
+        border: none;
+
+        border-radius: 5px;
+        padding: 5px 20px;
+        cursor: pointer;
+        width: 100px;
+        display: block;
+        height: 30px;
+
+        /* margin: auto; */
+        /* margin-top: 20px; */
+        
+    }
+    Label{
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+        /* float: left ; */
+
+
+    }
+   select{
+    width: 50%;
+   }
+    .navbar{
+        width: 100%;
+        background-color: white;
+        display: flex;
+        height: 60px;
+        text-shadow: 60px;
+        font-weight: 900px;
+        box-shadow: 5px 0px 5px  0px black;
+        text-align: center;
+        
+    }
+    .navbar button{
+        top: 10px;
+        height: 30px;   
+        background-color: rgb(56, 114, 213);
+        margin-right: 50px;
+        color: white;
+        width: 100px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding: 5px 20px;
+        cursor: pointer; 
+
+    }
+    .col-25{
+        float:left;
+        width: 25%;
+        margin-top: 10px;
+  } 
+    .col-75{
+          float: right;
+          width: 75%;
+          margin-top: 6px;
+    }
+    .navbar button:hover{
+        width: 120px;
+        transform: 3.2s;
+    }
+    .allbtn {
+        display: block;
+        width: 100%;
+       margin: auto;
+       text-align: center;
+       
+
+    }
+    .allbtn button{
+        top: 10px;
+        height: 30px;   
+        background-color: rgb(56, 114, 213);
+        color: white;
+        width: fit-content;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding: 5px 20px;
+        cursor: pointer; 
+
+    }
+    input:focus{
+        background-color: whitesmoke;
+        /* width: 80%; */
+    }
+  
+   .course input{
+    /* line-height: 50px; */
+    margin-top: 5px;
+    width: 50%;
+    height: 50%;
+    padding: 12px;
+   }
+   .course{
+    align-items: center;
+
+   }
+   .number{
+    width: 100px;
+    height: 20px;
+   }
+   
+   .dashboard{
+    display: block;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    position: absolute;
+    height: 500px;
+    width: 300px;
+    background-color: whitesmoke;
+    top:120px;
+    margin-left: 20px;
+    color: white;
+
+   }
+   .totalfee{
+    display: block;
+    /* border: 2px solid black; */
+    width: 70%;
+    border-radius: 5px;
+    height: 10px 10px;
+    margin: auto;
+    font-size: 1cm !important;
+    line-height: 50px;
+    /* text-transform: capitalize; */
+    padding-top: 5px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(104, 166, 236);
+    justify-content: baseline;
+   }
+   .txtfee{
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    /* flex-direction: column-reverse; */
+    height: 100%;
+    color: white;
+    background-color: rgb(137, 187, 243);
+    font-size: large;
+
+   }
+  
